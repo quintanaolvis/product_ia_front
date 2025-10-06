@@ -8,7 +8,7 @@
   "responseOverrides": {
     "401": {
       "statusCode": 401,
-      "redirect": "/login"
+      "redirect": "/"
     }
   },
   "globalHeaders": {
