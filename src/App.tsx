@@ -120,7 +120,7 @@ function App() {
                 Bienvenido
               </h2>
               <p className="text-slate-500">
-                Ingresa la URL de la API para comenzar
+                Ingresa la URL del producto para clasificarlo
               </p>
             </div>
           ) : (
