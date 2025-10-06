@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "allowedOrigins": ["*"]
+    }
+  ],
+  "responseOverrides": {
+    "401": {
+      "statusCode": 401,
+      "redirect": "/login"
+    }
+  },
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*"
+  }
+}
